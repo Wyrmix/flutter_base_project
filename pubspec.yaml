@@ -1,0 +1,79 @@
+name: flutter_base_project
+description: The Wymix Flutter base project
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dioc: ^0.1.4
+  shared_preferences: ^0.5.1+1
+  flutter_secure_storage: ^3.2.0
+  intro_views_flutter: ^2.4.0
+  image_picker: ^0.5.0+3
+  google_sign_in: ^4.0.1+1
+  firebase_auth: ^0.8.1+1
+  firebase_messaging: ^4.0.0+1
+  quiver: ^2.0.1
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.20.0
+  fimber: ^0.1.10
+  fluro: ^1.4.0
+  sealed_unions: ^3.0.2
+  flutter_advanced_networkimage: ^0.4.8
+  equatable: ^0.2.0
+  flutter_stetho: ^0.2.2
+  auto_size_text: ^1.0.0
+  card_settings: ^1.4.1
+  pull_to_refresh: ^1.1.6
+  flutter_politburo:
+    git:
+      url: https://github.com/Wyrmix/flutter_politburo
+  dio: 2.0.11
+  dragable_flutter_list: ^1.0.2
+  expandable: ^2.0.0
+  json_annotation: ^2.0.0
+  clippy_flutter: ^1.0.0
+  flutter_facebook_login:
+    git:
+      url: https://github.com/roughike/flutter_facebook_login
+      ref: e69fef3
+  flutter_swiper: ^1.1.4
+  pinch_zoom_image:
+    git:
+      url: git@github.com:kylealanr/pinch_zoom_image.git
+  cached_network_image: ^0.6.2
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  dherkin2: ^1.0.1+1
+  test: ^1.5.1
+  mockito:
+  flutter_launcher_icons: ^0.7.0
+  json_serializable: ^2.0.2
+
+#flutter_icons:
+#  image_path_android: "res/images/icon.png"
+#  image_path_ios: "res/images/icon.png"
+#  android: true # can specify file name here e.g. "ic_launcher"
+#  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+#  adaptive_icon_background: "res/images/background.png" # only available for Android 8.0 devices and above
+#  adaptive_icon_foreground: "res/images/foreground.png" # only available for Android 8.0 devices and above
+
+flutter:
+  uses-material-design: true
